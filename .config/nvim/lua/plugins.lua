@@ -41,4 +41,6 @@ return require('packer').startup(function(use)
   }
   -- Undo-tree
   use 'mbbill/undotree'
+  -- Collection of usefull plugins
+  use 'echasnovski/mini.nvim'
 end)
