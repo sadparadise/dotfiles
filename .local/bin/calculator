@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+str = input("Enter a count: ")
+str = str.split(" ")
+
+res = 0
+str[0] = float(str[0])
+str[2] = float(str[2])
+if str[1] == "+":
+  res = str[0] + str[2]
+if str[1] == "-":
+  res = str[0] - str[2]
+if str[1] == "*":
+  res = str[0] * str[2]
+if str[1] == "/":
+  res = str[0] / str[2]
+
+print("The result is", res)

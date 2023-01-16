@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
+    tmux new-session "$EDITOR $(fzf)"
+else
+    tmux new-window "$EDITOR $(fzf)" && tmux attach-session 0
+fi
