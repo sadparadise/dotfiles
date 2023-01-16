@@ -45,4 +45,9 @@ return require('packer').startup(function(use)
   use 'mbbill/undotree'
   -- Collection of usefull plugins
   use 'echasnovski/mini.nvim'
+  -- Status bar
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 end)
