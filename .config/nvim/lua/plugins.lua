@@ -33,6 +33,8 @@ return require('packer').startup(function(use)
       ts_update()
     end,
   }
+  -- HTML and XML autoclose tags
+  use 'windwp/nvim-ts-autotag'
   -- Fuzzy-finder
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
