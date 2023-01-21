@@ -1,8 +1,11 @@
 return require('packer').startup(function(use)
   -- Package manager
   use 'wbthomason/packer.nvim'
-      -- Colorscheme
+  -- Colorschemes
   use 'tamelion/neovim-molokai'
+  use 'ellisonleao/gruvbox.nvim'
+  use 'ciaranm/inkpot'
+  use 'EdenEast/nightfox.nvim'
   -- LSP
   use {
     'VonHeikemen/lsp-zero.nvim',

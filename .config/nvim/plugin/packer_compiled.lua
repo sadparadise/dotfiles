@@ -109,6 +109,16 @@ _G.packer_plugins = {
     path = "/home/gui/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/gui/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  inkpot = {
+    loaded = true,
+    path = "/home/gui/.local/share/nvim/site/pack/packer/start/inkpot",
+    url = "https://github.com/ciaranm/inkpot"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/gui/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -138,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gui/.local/share/nvim/site/pack/packer/start/neovim-molokai",
     url = "https://github.com/tamelion/neovim-molokai"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/gui/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,

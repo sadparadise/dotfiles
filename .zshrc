@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 export LIBVA_DRIVER_NAME='i965'
 export EDITOR='nvim'
-export PATH=$PATH:$HOME/local/bin/
+export PATH=$PATH:$HOME/.local/bin/
 
 autoload -Uz compinit
 compinit
