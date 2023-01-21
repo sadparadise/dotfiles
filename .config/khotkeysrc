@@ -1152,14 +1152,14 @@ Uuid={6f296279-fc40-4fdc-a281-424ceac563a2}
 [Data_9]
 Comment=Macro safadinho :)
 Enabled=true
-Name=Clicar 20 vezes
+Name=Clicar várias vezes
 Type=SIMPLE_ACTION_DATA
 
 [Data_9Actions]
 ActionsCount=1
 
 [Data_9Actions0]
-CommandURL=xdotool mousedown 1 && xdotool mouseup 1
+CommandURL=/home/gui/.local/bin/twentyoneclicks
 Type=COMMAND_URL
 
 [Data_9Conditions]
