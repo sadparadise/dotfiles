@@ -120,3 +120,4 @@ fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
 
 if [ -e /home/gui/.nix-profile/etc/profile.d/nix.sh ]; then . /home/gui/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+export XDG_DATA_DIRS=$HOME/.nix-profile/share:$HOME/.share:"${XDG_DATA_DIRS:-/usr/local/share/:/usr/share/}"

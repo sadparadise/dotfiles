@@ -37,3 +37,4 @@ vim.o.undofile = true
 
 -- Keybindings
 vim.g.mapleader = " "					-- Map leader key
+vim.keymap.set("n", "<LEADER>l", ":ls<CR>:b ")
